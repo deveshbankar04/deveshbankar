@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cow – Gentle Provider</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Poppins", sans-serif;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: #fff;
+            padding: 40px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 30px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 0 40px rgba(0,0,0,0.5);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 48px;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+            background: linear-gradient(90deg, #8e9eab, #eef2f3);
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 18px;
+            box-shadow: 0 0 30px rgba(0,0,0,0.5);
+            transition: .4s;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        h3 {
+            margin-top: 25px;
+            font-size: 28px;
+            color: #eef2f3;
+        }
+
+        p {
+            line-height: 1.8;
+            font-size: 18px;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            font-size: 18px;
+            color: #000;
+            background: #ffca28;
+            border-radius: 30px;
+            text-decoration: none;
+            transition: 0.3s;
+            font-weight: bold;
+        }
+
+        a:hover {
+            background: #ffd54f;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Cow</h1>
+
+        <img src="data:image/jpeg;base64,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" alt="Cow in a field">
+
+        <h3>Gentle Provider</h3>
+
+        <p>
+            The cow is a gentle, domesticated, herbivorous animal found in various colors and sizes across the globe. 
+            It is a highly valued livestock animal, primarily raised for its milk, meat, and leather, and for use as 
+            a draft animal in agriculture. Cows are ruminants with a unique four-compartment stomach system, which 
+            allows them to efficiently digest tough plant materials like grass and hay by "chewing cud".
+            <br><br>
+            Beyond their direct utility, cows provide several by-products essential for sustainable living, such as 
+            manure, which is used as a natural fertilizer and a source of fuel or biogas in many rural areas. 
+            Culturally, the cow holds immense significance, particularly in Hinduism, where it is revered as a sacred 
+            animal and symbol of motherhood, abundance, and selfless service, often referred to as "Gau Mata" or 
+            "Mother Cow".
+            <br><br>
+            Cows are also highly social and intelligent creatures, forming strong bonds with their herd mates and 
+            exhibiting individual personalities. Despite their importance, the modern agricultural industry and 
+            environmental concerns, such as methane emissions from cattle farming, highlight ongoing challenges 
+            regarding animal welfare and sustainable practices that require careful consideration.
+        </p>
+
+        <a href="https://en.wikipedia.org/wiki/Cattle" target="_blank">More Details</a>
+    </div>
+</body>
+</html>

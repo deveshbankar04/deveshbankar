@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deer – Graceful Herbivore</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Poppins", sans-serif;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: #fff;
+            padding: 40px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 30px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 0 40px rgba(0,0,0,0.5);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 48px;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+            background: linear-gradient(90deg, #ffb347, #ffcc33);
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 18px;
+            box-shadow: 0 0 30px rgba(0,0,0,0.5);
+            transition: .4s;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        h3 {
+            margin-top: 25px;
+            font-size: 28px;
+            color: #ffe082;
+        }
+
+        p {
+            line-height: 1.8;
+            font-size: 18px;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            font-size: 18px;
+            color: #000;
+            background: #ffca28;
+            border-radius: 30px;
+            text-decoration: none;
+            transition: 0.3s;
+            font-weight: bold;
+        }
+
+        a:hover {
+            background: #ffd54f;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Deer</h1>
+
+        <img src="data:image/jpeg;base64,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" alt="Deer">
+
+        <h3>Graceful Herbivore</h3>
+
+        <p>
+            Deer are hoofed mammals belonging to the family Cervidae. Found on all
+            continents except Australia and Antarctica, they thrive in forests,
+            grasslands, mountains, swamps, and tundras. Male deer typically grow
+            antlers that shed and regrow annually, while female reindeer are the
+            only does that also develop antlers.
+            <br><br>
+            Deer are herbivores, feeding on grass, leaves, twigs, fruits, and fungi.
+            Their four-chambered stomach helps digest tough plant material. Known
+            for their agility and sharp senses, deer can detect predators such as
+            wolves and big cats easily due to their wide field of vision.
+        </p>
+
+        <a href="https://en.wikipedia.org/wiki/Deer" target="_blank">More Details</a>
+    </div>
+
+</body>
+</html>
